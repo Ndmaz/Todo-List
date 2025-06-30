@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "Learn React",
+        "completed": false,
+        "status": "todo",
+        "time": "2024-01-15T10:00:00.000Z"
+    },
+    {
+        "id": 2,
+        "description": "Build Todo App",
+        "completed": false,
+        "status": "in_progress",
+        "time": "2024-01-16T14:30:00.000Z"
+    },
+    {
+        "id": 3,
+        "description": "Deploy to Production",
+        "completed": true,
+        "status": "completed",
+        "time": "2024-01-17T09:15:00.000Z"
+    }
+]
