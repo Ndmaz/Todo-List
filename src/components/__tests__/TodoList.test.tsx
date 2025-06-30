@@ -38,18 +38,6 @@ describe('TodoList', () => {
     expect(screen.getByText('Second')).toBeInTheDocument()
   })
 
-  it('calls onTodosChange when a drag ends (reorder)', () => {
-    const onTodosChange = jest.fn()
-    render(
-      <TestWrapper>
-        <TodoList todos={mockTodos} onTodosChange={onTodosChange} />
-      </TestWrapper>
-    )
-    // Simulate a drag end event (manually call the handler)
-    // You can only do this with a refactor to expose the handler or by using fireEvent with dnd-kit context
-    // Here, we just check that the callback exists and is callable
-    expect(typeof onTodosChange).toBe('function')
-  })
 
   it('renders status for each todo', () => {
     const onTodosChange = jest.fn()

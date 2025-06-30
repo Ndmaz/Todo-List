@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { Status, type Todo } from "./types/todo"
 import { useGetTodosQuery } from "./store/useGetTodosQuery"
 import TodoList from "./components/TodoList"
-import { AddTodoModal } from "./components/AddTodoModal"
+import AddTodoModal from "./components/AddTodoModal"
 
 export default function App() {
   const { data: todos = [], isLoading, error } = useGetTodosQuery()
