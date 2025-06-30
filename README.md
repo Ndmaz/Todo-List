@@ -105,17 +105,6 @@ npm test
 
 ---
 
-## 📄 License
-MIT
 
----
-
-## 🙏 Credits
-- [dnd-kit](https://dndkit.com/)
-- [React Query](https://tanstack.com/query/latest)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Testing Library](https://testing-library.com/)
-
----
 
 **Enjoy your productive, modern, and multilingual Todo List!**
